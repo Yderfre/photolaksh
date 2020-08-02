@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: #fff;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -19,7 +20,7 @@ nav {
 }
 
 nav.black {
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.4);
   height: 80px;
   padding: 10px;
   font-family: 'Nunito', sans-serif;
@@ -54,7 +55,7 @@ nav ul li a {
 nav ul li a.active,
 nav ul li a:hover {
   color: #fff;
-  background: #f00;
+  background: #b404ab;
   border-radius: 3px;
 }
 
@@ -170,5 +171,13 @@ img {
 .container-header {
   max-width: 2140px;
   padding: 0;
+}
+
+.tiempo-titulo {
+  font-size: 150%;
+}
+
+.texto-encabezado {
+  padding-top: 2%;
 }
 /*# sourceMappingURL=styles.css.map */
