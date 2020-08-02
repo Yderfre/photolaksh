@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photolaksh</title>
+    <!-- fonts -->
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap" rel="stylesheet">
+
+    <!-- styles -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <section class="bienvenidos d-flex flex-column">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <nav class="nav fixed-top ">
+                    <div class="logo col-1">
+                        <img class="float-left" src="images/logo.png" width="140" height="100" alt="Logo photolaksh">
+                    </div>
+                    <ul class=" col mt-3 nav-links">
+                        <li> <a class="m-1  d-flex p-2  float-right active" href="#">Inicio</a> </li>
+                        <li> <a class="m-1  d-flex p-2  float-right" href="#">Nosotros</a> </li>
+                        <li> <a class="m-1  d-flex p-2  float-right" href="#">Servicios</a> </li>
+                        <li> <a class="m-1  d-flex p-2  float-right" href="#">Portafolio</a> </li>
+                        <li> <a class="m-1  d-flex p-2  float-right" href="#">Contacto</a> </li>
+                    </ul>
+                    <div class="burger pt-3 float-left col-6">
+                        <div class="line1"></div>
+                        <div class="line2"></div>
+                        <div class="line3"></div>
+
+                    </div>
+
+                </nav>
+            </div>
+        </div>
+    
+<div class="row">
+    <div class="col">
+
+ 
+            <ul id="scene" class="scene">
+                <li class="layer" data-depth="1.00">
+                    <img src="images/layer1.png" />
+                </li>
+                <li class="layer" data-depth="0.80">
+                    <img src="images/layer2.png" />
+                </li>
+                <li class="layer" data-depth="0.60">
+                    <img src="images/layer3.png" />
+                </li>
+                <li class="layer" data-depth="0.40">
+                    <img src="images/layer4.png" />
+                </li>
+                <li class="layer" data-depth="0.20">
+                    <img src="images/layer5.png" />
+                </li>
+                <li class="layer" data-depth="0.00">
+                    <img src="images/layer6.png" />
+                </li>
+            </ul>
+        </div>
+    </div>
+        </div>
+    </div>
+</section>
+
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="js/jquery.parallax.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+</body>
+
+</html>
