@@ -1,3 +1,39 @@
+
+// iniciamos Wow
+
+new WOW().init();
+
+// animar el scroll de las flechas
+
+var easeInQuad = new SmoothScroll('[data-easing="easeInQuad"]', {
+  speed: 1500,
+  offset: 70,
+});
+
+$(function () {
+  $(window).scroll(function () {
+    var scrolltop = $(this).scrollTop();
+    if (scrolltop >= 50) {
+      $('.ir-ariiba').fadeIn();
+    } else {
+      $('.ir-ariiba').fadeOut();
+    }
+  });
+});
+
+// CABECERA ANIMADA
+
+$(window).scroll(function () {
+  var nav = $('.encabezado');
+  var scroll = $(window).scrollTop();
+
+  if (scroll >= 100) {
+    nav.addClass('fondo-menu');
+  } else {
+    nav.removeClass('fondo-menu');
+  }
+});
+
 // nav bar change
 $(window).on('scroll', function(){
     if($(window).scrollTop()){
@@ -67,3 +103,12 @@ function main(){
 	});
  
 };
+
+
+
+
+
+
+
+// afeter before imagen
+

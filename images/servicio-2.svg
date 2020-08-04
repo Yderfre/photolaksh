@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 66 66">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #22282d;
+      }
+    </style>
+  </defs>
+  <title>Recurso 14</title>
+  <g id="Capa_2" data-name="Capa 2">
+    <g id="Capa_1-2" data-name="Capa 1">
+      <circle class="cls-1" cx="33" cy="33" r="33"/>
+      <path id="laptop" class="cls-2" d="M51.1,42.7H36.7a1.8,1.8,0,0,1-1.9,1.9H31.2a2,2,0,0,1-2-1.9H15a1.1,1.1,0,0,0-1,1v.9a3.8,3.8,0,0,0,3.8,3.8H48.3a3.8,3.8,0,0,0,3.8-3.8v-.9A1.1,1.1,0,0,0,51.1,42.7ZM48.3,20.9A2.9,2.9,0,0,0,45.4,18H20.7a2.9,2.9,0,0,0-2.9,2.9V40.8H48.3ZM44.5,37H21.6V21.8H44.5Z"/>
+    </g>
+  </g>
+</svg>

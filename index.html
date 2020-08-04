@@ -17,7 +17,7 @@
 </head>
 
 <body>
-    <section class="bienvenidos d-flex flex-column">
+    <section class="bienvenidos d-flex flex-column " id="encabezado">
         <div class="container container-header">
             <div class="row">
                 <div class="col">
@@ -26,7 +26,7 @@
                             <img class="float-left" src="images/logo.png" width="140" height="100"
                                 alt="Logo photolaksh">
                         </div>
-                        <ul class=" col mt-3 nav-links">
+                        <ul class=" col  nav-links">
                             <li> <a class="m-1  d-flex p-2  float-right active" href="#">Inicio</a> </li>
                             <li> <a class="m-1  d-flex p-2  float-right" href="#">Nosotros</a> </li>
                             <li> <a class="m-1  d-flex p-2  float-right" href="#">Servicios</a> </li>
@@ -37,47 +37,40 @@
                             <div class="line1"></div>
                             <div class="line2"></div>
                             <div class="line3"></div>
-
                         </div>
-
                     </nav>
                 </div>
             </div>
-
-            <div class="row">
+            <div class="row  header-3d">
                 <div class="col">
                     <img class="fondo-imagen" src="/images/fondo.jpg" alt="">
-
-                    <ul id="scene" class="scene header-3d ">
-                        <li class="layer" data-depth="1.00">
-                            <img src="images/layer1.png" />
-                        </li>
-                        <li class="layer" data-depth="0.80">
-                            <img src="images/layer2.png" />
-                        </li>
-                        <li class="layer" data-depth="0.60">
-                            <img src="images/layer3.png" />
-                        </li>
-                        <li class="layer" data-depth="0.40">
-                            <img src="images/layer4.png" />
-                        </li>
-                        <li class="layer" data-depth="0.20">
-                            <img src="images/layer5.png" />
-                        </li>
-                        <li class="layer" data-depth="0.00">
-                            <img src="images/layer6.png" />
-
-                        </li>
-                    </ul>
                 </div>
+                <ul id="scene" class="scene header-3d ">
+                    <li class="layer" data-depth="1.00">
+                        <img src="images/layer1.png" />
+                    </li>
+                    <li id="gb" class="layer" data-depth="0.80">
+                        <img src="images/layer2.png" />
+                    </li>
+                    <li class="layer" data-depth="0.60">
+                        <img src="images/layer3.png" />
+                    </li>
+                    <li class="layer" data-depth="0.40">
+                        <img src="images/layer4.png" />
+                    </li>
+                    <li class="layer" data-depth="0.20">
+                        <img src="images/layer5.png" />
+                    </li>
+                    <li class="layer" data-depth="0.00">
+                        <img src="images/layer6.png " />
+                    </li>
+                </ul>
             </div>
         </div>
         </div>
-
+        </div>
         <div class="container text-center  flex-fill align-items-center ">
             <div class="texto-encabezado">
-
-
                 <h1 class="tiempo-titulo  mt-5 wow animate__animated animate__bounceIn animate__faster">FOTOS PARA
                     BEBÉS, NIÑOS MATERNAS.<br />
                     RETRATOS AUTÉNTICOS Y NATURALES. </h1>
@@ -98,52 +91,120 @@
     </section>
     <section class="servicios" id="servicios">
 
-        <div class="container">
-            <div class="row">
-                <div class="card col-3" style="width: 18rem;">
-                    <a href="#"><img class="card-img-top" src="images/servicios1.jpg" alt="Card image cap"></a>
-                    <div class="card-body">
-                        <h5 class="card-title">RECIÉN NACIDOS</h5>
-                        <p class="card-text">El tiempo de encuentro con tu bebé recién nacido pasa tan rápido! es
-                             tan efímero como intenso… Imaginá poder tener registro de esos primeros días de inmensa belleza…</p>
-                       
-                    </div>
+        <div class="row">
+            <div class=" col-12 col-sm-6 col-lg-3 box">
+                <div class="inner">
+                    <a href="#"><img class="card-img-top img-servicios" src="images/servicios1.jpg"
+                            alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">RECIÉN NACIDOS</h5>
+                            <p class="card-text">El tiempo de encuentro con tu bebé recién nacido pasa tan rápido!
+                                es
+                                tan efímero como intenso… Imaginá poder tener registro de esos primeros días de
+                                inmensa belleza…</p>
+                        </div>
+                    </a>
                 </div>
-                <div class="card col-3" style="width: 18rem;">
-                    <a href="#"><img class="card-img-top" src="images/servicios2.jpg" alt="Card image cap"></a>
-                    <div class="card-body">
-                        <h5 class="card-title">BEBÉS</h5>
-                        <p class="card-text">Retratos de tu bebé libre y natural. Huellas que te recordarán por 
-                            siempre su manera de andar, sus primeros gestos, su curiosidad, su modo único de estar en el mundo…</p>
-                      
-                    </div>
+            </div>
+            <div class=" col-12 col-sm-6 col-lg-3 box">
+                <div class="inner">
+                    <a href="#"><img class="card-img-top img-servicios" src="images/servicios2.jpg"
+                            alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">BEBÉS</h5>
+                            <p class="card-text">Retratos de tu bebé libre y natural. Huellas que te recordarán por
+                                siempre su manera de andar, sus primeros gestos, su curiosidad, su modo único de
+                                estar en el mundo…</p>
+                        </div>
+                    </a>
                 </div>
-                <div class="card col-3" style="width: 18rem;">
-                    <a href="#"><img class="card-img-top" src="images/servicios3.jpg" alt="Card image cap"></a>
-                    <div class="card-body">
-                        <h5 class="card-title">NIÑOS NIÑAS</h5>
-                        <p class="card-text">Retratos de niños reales. Trabajamos para que las familias se acerquen a 
-                            celebrar su presente y atesoren un recuerdo honesto dela infancia de sus seres queridos….</p>
-                        
-                    </div>
+            </div>
+            <div class=" col-12 col-sm-6 col-lg-3 box">
+                <div class="inner">
+                    <a href="#"><img class="card-img-top img-servicios" src="images/servicios3.jpg"
+                            alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">NIÑOS NIÑAS</h5>
+                            <p class="card-text">Retratos de niños reales. Trabajamos para que las familias se
+                                acerquen a
+                                celebrar su presente y atesoren un recuerdo honesto dela infancia de sus seres
+                                queridos….</p>
+                        </div>
+                    </a>
                 </div>
-                <div class="card col-3" style="width: 18rem;">
-                    <a href="#"><img class="card-img-top" src="images/servicios4.jpg" alt="Card image cap"></a>
-                    <div class="card-body">
-                        <h5 class="card-title">MATERNAS</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                       
-                    </div>
+            </div>
+            <div class=" col-12 col-sm-6 col-lg-3 box">
+                <div class="inner">
+                    <a href="#"><img class="card-img-top img-servicios" src="images/servicios4.jpg"
+                            alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">MATERNAS</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the
+                                bulk of
+                                the card's content.</p>
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>
+        <main class="servicios py-1">
+            <div class="container">
+                <h2 class="text-center font-weight-bold">Nuestros Servicios</h2>
+                <div class="row">
+                    <article
+                        class="col-md-4 wow animate__animated animate__bounceInUp animate__faster animate__delay-1s ">
+                        <img class="servicios-icon" src="images/servicio-1.svg"
+                            alt="Servicio desarrollo de aplicaciones mobiles" />
+                        <h3> <a href="/servicios.html"> Desarrollo de Aplicaciones Móviles </a></h3>
+                        <p class="d-none d-md-block ">Desarrollamos aplicaciones móviles y
+                            plataformas web. Nuestra principal cualidad
+                            está en el desarrollo de softwtare a medida de
+                            tus necesidades</p>
+                        <a href="/servicios.html" class=" btn btn-secondary d-none d-md-block ">Más Información</a>
+                    </article>
+                    <article
+                        class="col-md-4 wow animate__animated animate__bounceInUp animate__fast animate__delay-1s ">
+                        <img class="servicios-icon" src="images/servicio-2.svg"
+                            alt=" Servicio Consultoía Tecnológica" />
+                        <h3> <a class="icono" href="/servicios.html"> Consultoria Tecnológica</a></h3>
+                        <p class="d-none d-md-block ">Desarrollamos aplicaciones móviles y
+                            plataformas web. Nuestra principal cualidad
+                            está en el desarrollo de software a medida de
+                            tus necesidades</p>
+                        <a href="/servicios.html" class="btn btn-secondary d-none d-md-block ">Más Información</a>
+                    </article>
+                    <article class="col-md-4 wow animate__animated animate__bounceInUp animate__delay-1s ">
+                        <img class="servicios-icon" src="images/servicio-3.svg"
+                            alt=" Servicio Marketing y Publicidad móvil" />
+                        <h3> <a class="icono" href="/servicios.html"> Marketing y publicidad móvil</a></h3>
+                        <p class="d-none d-md-block ">Desarrollamos aplicaciones móviles y
+                            plataformas web. Nuestra principal cualidad
+                            está en el desarrollo de software a medida de
+                            tus necesidades</p>
+                        <a href="/servicios.html" class="btn btn-secondary d-none d-md-block ">Más Información</a>
+                    </article>
+                </div>
+            </div>
+        </main>
+
+    </section>
+    <section>
+
+
     </section>
 
+
+
+
+    <a data-easing="easeInQuad" class="ir-ariiba" href="#encabezado"> <i class="fa fa-arrow-circle-up"></i></a>
+
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
-    <script src="js/jquery.parallax.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/jquery.parallax.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/smooth-scroll.min.js"></script>
     <script type="text/javascript" src="js/app.js"></script>
+   
 </body>
 
 </html>

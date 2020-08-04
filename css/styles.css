@@ -5,6 +5,12 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+.header-3d {
+  padding-top: 4%;
+  margin-left: -30px;
+  margin-bottom: -30px;
+}
+
 nav {
   position: fixed;
   top: 0;
@@ -169,8 +175,11 @@ img {
 }
 
 .container-header {
-  max-width: 2140px;
-  padding: 0;
+  max-width: 150%;
+}
+
+.container-servicios {
+  max-width: 150%;
 }
 
 .tiempo-titulo {
@@ -179,5 +188,210 @@ img {
 
 .texto-encabezado {
   padding-top: 2%;
+}
+
+.card-services {
+  background: #f1efef;
+}
+
+.card-text,
+.card-title {
+  color: #262626 !important;
+}
+
+.img-servicios {
+  -webkit-transition: all 3s ease !important;
+  transition: all 3s ease !important;
+}
+
+.img-servicios:hover {
+  -webkit-filter: grayscale(80%);
+          filter: grayscale(80%);
+  -webkit-transform: rotateY(180deg);
+  -webkit-transform-style: preserve-3d;
+  transform: rotateY(180deg);
+  transform-style: preserve-3d;
+}
+
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+}
+
+.flecha-bajar {
+  font-size: 3rem;
+  -webkit-animation: flecha-animada 2s ease-in-out infinite;
+  animation: flecha-animada 2s ease-in-out infinite;
+}
+
+.tu-mejor-eleccion ul li .contenedor-eleccion h4 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 0.8rem;
+  color: #22282d;
+}
+
+.tu-mejor-eleccion ul li {
+  min-height: 9rem;
+}
+
+.servicios {
+  background: url(../images/services.jpg) no-repeat center center;
+  background-attachment: fixed !important;
+  color: #fff;
+  background-size: cover;
+}
+
+.servicios article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.servicios article img {
+  margin-right: 1rem;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 1 60px;
+  flex: 0 1 60px;
+  overflow: hidden;
+}
+
+.servicios article img {
+  margin-right: 1rem;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 60px;
+  flex: 0 0 60px;
+  overflow: hidden;
+}
+
+.servicios h3 {
+  margin: 0;
+  font-size: 1.1rem;
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+}
+
+.servicios h3 a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+@-webkit-keyframes flecha-animada {
+  from {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  50% {
+    -webkit-transform: translateY(6px);
+    transform: translateY(6px);
+  }
+  to {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@keyframes flecha-animada {
+  from {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  50% {
+    -webkit-transform: translateY(6px);
+    transform: translateY(6px);
+  }
+  to {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+.ir-ariiba {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  font-size: 2.5rem;
+  color: #b404ab;
+  opacity: 0.5;
+  z-index: 99999;
+  line-height: 0;
+  -webkit-transition: all 0.7s ease;
+  transition: all 0.7s ease;
+  display: none;
+}
+
+.ir-ariiba:hover,
+.ir-ariiba:focus {
+  outline: 0;
+  text-decoration: none;
+  color: #b404ab;
+  opacity: 1;
+}
+
+#gb {
+  width: 100px;
+  height: 150px;
+  background: url(../images/monkey-guybrush.png) no-repeat;
+  -webkit-animation: gbwalk 2s steps(6) infinite;
+          animation: gbwalk 2s steps(6) infinite;
+  margin: 20%;
+  position: static;
+  /* Ojo, muy costoso en rendimiento */
+  /* filter:drop-shadow(5px 5px 5px #000); */
+}
+
+@-webkit-keyframes gbwalk {
+  0% {
+    background-position: 0;
+  }
+  100% {
+    background-position: -624px;
+  }
+}
+
+@keyframes gbwalk {
+  0% {
+    background-position: 0;
+  }
+  100% {
+    background-position: -624px;
+  }
+}
+
+.box {
+  padding: 5px 5px 0 5px !important;
+}
+
+.box .inner {
+  padding: 10px;
+  position: relative;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: .25rem;
+  height: 100%;
 }
 /*# sourceMappingURL=styles.css.map */
